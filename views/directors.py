@@ -42,6 +42,3 @@ class Item_one(Resource):
         service_obj.delete(iid)
         return "", 204
 
-
-if __name__ == '__main__':
-    app.run(debug=True)

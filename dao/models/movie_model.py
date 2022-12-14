@@ -3,6 +3,7 @@ from marshmallow import Schema, fields
 from dao.models.genre_model import Genre
 from dao.models.director_model import Director
 
+
 class Movie(db.Model):
     __tablename__ = 'movie'
     id = db.Column(db.Integer, primary_key=True)

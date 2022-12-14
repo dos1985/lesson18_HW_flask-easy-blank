@@ -1,7 +1,3 @@
-# основной файл приложения. здесь конфигурируется фласк, сервисы, SQLAlchemy и все остальное что требуется для приложения.
-# этот файл часто является точкой входа в приложение
-
-
 from flask import Flask
 from views.movies import movies_ns
 from views.directors import director_ns

@@ -23,7 +23,7 @@ class DirectorService:
         self.dao_model.update(model_item)
         return model_item
 
-    def create(self, data):
+    def create_app(self, data):
         model_item = self.dao_model.create(data)
         return model_item
 
